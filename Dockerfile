@@ -8,6 +8,7 @@ RUN apt-get -qq update \
     libboost-all-dev \
     g++ \
     vim \
+    make \
 && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT /bin/bash
